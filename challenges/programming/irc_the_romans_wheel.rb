@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'challenges/programming/irc'
-require 'base64'
 
 irc = IRC.new
 irc.send('PRIVMSG Candy :!ep3')
