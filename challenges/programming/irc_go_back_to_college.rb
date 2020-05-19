@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-puts "LOADPATH = #{$LOAD_PATH}"
 require 'challenges/programming/irc'
 
 irc = IRC.new
